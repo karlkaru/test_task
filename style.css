@@ -1,0 +1,7 @@
+#dvdOption, #bookOption, #furnitureOption {
+    display: none;
+}
+
+html {
+    padding: 3%;
+}
