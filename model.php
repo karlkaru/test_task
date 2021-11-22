@@ -1,9 +1,9 @@
 <?php
 class Model {
-	private $servername="localhost";
-	private $username="root";
-	private $password="";
-	private $dbname="taskdatabase";
+	private $servername="";
+	private $username="";
+	private $password="!";
+	private $dbname="";
 
 
 	function __construct(){
@@ -20,4 +20,3 @@ class Model {
 }	
 
 ?>
-

@@ -26,7 +26,7 @@ if(isset($_POST['submit'])) {
         <div class="justify-content-end">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item m-1">
-                <input type="submit" name="submit" value="Submit" onclick="setAttributes()" class="btn btn-primary m-2">
+                <input type="submit" name="submit" value="Save" onclick="setAttributes()" class="btn btn-primary m-2">
             </li>
             <li class="nav-item m-1">
                 <a class="btn btn-primary m-2" href="index.php">Cancel</a>

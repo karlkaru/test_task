@@ -1,5 +1,5 @@
 <?php
-
+include_once 'model.php';
 
 class Display extends Model {
    public function displayRecord(){
@@ -9,7 +9,9 @@ class Display extends Model {
             while($row = $result->fetch_assoc()){
                 $data[] = $row;
             }
-        } return $data;
+        }
+
+        return $data;
     } 
 }
 

@@ -1,9 +1,9 @@
 
     function ShowHideDiv() {
 
-        var dvdOption = document.getElementById("dvdOption");
-        var bookOption = document.getElementById("bookOption");
-        var furnitureOption = document.getElementById("furnitureOption");
+        let dvdOption = document.getElementById("dvdOption");
+        let bookOption = document.getElementById("bookOption");
+        let furnitureOption = document.getElementById("furnitureOption");
 
 
         bookOption.style.display = productType.value == "1" ? "block" : "none";
@@ -16,11 +16,11 @@
 
     function setAttributes(){
 
-        var height = document.getElementById("height").value;
-        var length = document.getElementById("length").value;
-        var width = document.getElementById("width").value;
-        var size = document.getElementById("size").value;
-        var weight = document.getElementById("weight").value;
+        let height = document.getElementById("height").value;
+        let length = document.getElementById("length").value;
+        let width = document.getElementById("width").value;
+        let size = document.getElementById("size").value;
+        let weight = document.getElementById("weight").value;
         
         
         if(document.getElementById('productType').value == "3") {
